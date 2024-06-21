@@ -1,0 +1,5 @@
+var binding = oEvent.getParameter("itemsBinding");
+var value = oEvent.getParameter("value");
+var filter = new sap.ui.model.Filter("DESCRIPTION", "Contains", value);
+
+binding.filter([filter]);
