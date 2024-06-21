@@ -1,0 +1,48 @@
+{
+	"id": "00eb972f-2f7e-ec11-94f6-c89665413a41",
+	"createdAt": "2022-01-25T22:36:07.880Z",
+	"createdBy": "daird@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/duncan-aird/graceway-village.git"
+	},
+	"name": "GW22",
+	"description": "Graceway Village",
+	"ver": "24.06.21.1758",
+	"enableCICD": true,
+	"apps": [],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [
+		{
+			"id": "5e1910b0-317e-ec11-94f6-c89665413a41",
+			"description": null,
+			"name": "Graceway App"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
