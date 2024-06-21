@@ -1,0 +1,7 @@
+var selectedItem = oEvent.getParameter("selectedItem");
+var context = selectedItem.getBindingContext();
+var data = context.getObject();
+
+//gv_input.setValue(data.QUESTION_TYPE);
+gv_input.setValue(data.DESCRIPTION);
+modeloTableQuestions.refresh();

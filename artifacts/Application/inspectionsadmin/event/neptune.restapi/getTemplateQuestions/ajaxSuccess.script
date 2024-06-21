@@ -1,0 +1,9 @@
+// Single Field Sort
+var qs = xhr.responseJSON;
+qs.sort((a,b) => Number(a.SEQUENCE_NO) - Number(b.SEQUENCE_NO));
+modeloTableQuestions.setData(qs);
+var oSorter = new sap.ui.model.Sorter("SEQUENCE_NO", false, false);
+var binding = oTableQuestions.getBinding("items");
+binding.sort(oSorter);
+//var qs = modeloTableQuestions.oData;
+

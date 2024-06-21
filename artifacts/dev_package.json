@@ -10,7 +10,17 @@
 	"description": "Graceway Village",
 	"ver": "24.06.21.1758",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "3979d450-53d5-ec11-997e-0050f27989a1",
+			"application": "inspectionsadmin",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "00EB972F-2F7E-EC11-94F6-C89665413A41"
+			}
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
